@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("aicha.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+form{
+    background-color: #ffffffc1;
+    width: 500px;
+    height: 400px;
+    margin-left: 30%;
+    margin-top: 5%;
+    padding: 3rem;
+    text-align: center;
+    border-left: 10px solid rgb(235, 135, 35);
+}
+fieldset{
+     padding: 20px;
+    width: 69%; 
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 20px;
+    height: 190px;
+}
+i{
+    background-color: green;
+    color: white;
+    padding: 10px 5px 22px 5px;
+    right: 40px;
+    position: absolute;
+    transform: translateY(-50%);
+    margin-right: 32%;
+    font-size: 25px;
+    height: 13px;
+   bottom: 300px;
+   border-radius: 0 10px 10px 0;
+   left: 835px;
+}
+legend{
+    text-align: left;
+    z-index: 10%;
+}
+.li input{
+    background-color: green;
+    color: white;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+   margin-top: 20px;
+   transition: 1s;
+}
+.li input:hover{
+    cursor: pointer;
+    font-size: 24px;
+}
+.lit h2{
+    color: green;
+}
+.ok{
+    margin-bottom: 20vh;
+}
+.ok h4{
+    margin-top: 40px;
+    color: black;
+}
+input[type=text],
+input[type=password]{
+    padding: 5px 5px;
+    width: 68%;
+    height: 5vh;
+    margin-left: -10px;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-color: hsla(160, 29%, 71%, 0.839);
+}
+fieldset label{
+    font-size: 20px;
+    font-weight: 700;
+    border: turquoise;
+}
+::placeholder{
+    font-size: 18px;
+    /* margin-top: 20px; */
+}
